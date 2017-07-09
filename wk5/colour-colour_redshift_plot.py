@@ -18,8 +18,7 @@ if __name__ == "__main__":
 
     # Create the plot with plt.scatter and plt.colorbar
     plt.scatter(cidx_ug, cidx_ri, c=redshift, lw=0, s=1, cmap=cmap1)
-    colorbar = plt.colorbar()
-    colorbar.set_label("Redshift")
+    colorbar = plt.colorbar().set_label("Redshift")
      
     # Define your axis labels and plot title
     plt.xlabel= "Colour index u-g"
